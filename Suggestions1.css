@@ -1,0 +1,67 @@
+.suggestions {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .suggestions h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Grid layout for suggestion items */
+  .suggestion-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap for smaller screens */
+    justify-content: center; /* Centers items in the grid */
+    gap: 20px; /* Adds space between grid items */
+  }
+  
+  /* Individual suggestion item styling */
+  .suggestion-item {
+    width: 200px; /* Fixed width for uniformity */
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .suggestion-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling for uniform size */
+  .suggestion-item img {
+    width: 100%; /* Make image take full width of the container */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image fills the box without distortion */
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  
+  /* Text and button styling */
+  .suggestion-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .add-to-cart {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  

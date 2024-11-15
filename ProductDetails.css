@@ -1,0 +1,34 @@
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.go-back {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.main-product {
+  display: flex;
+  align-items: center;
+}
+
+.main-image {
+  width: 300px;
+  margin-right: 2rem;
+}
+
+.product-info h2 {
+  font-size: 1.5rem;
+}
+
+.add-to-cart, .book-now {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
