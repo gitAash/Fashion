@@ -1,0 +1,22 @@
+/* Filter.css */
+.filter-container {
+    width: 200px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.filter-container h3, .filter-container h4 {
+    color: #333;
+}
+
+.category-filter label, .price-filter label {
+    display: block;
+    margin: 5px 0;
+}
+
+.price-filter input {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+}

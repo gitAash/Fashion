@@ -1,0 +1,21 @@
+/* Products.css */
+.products-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
