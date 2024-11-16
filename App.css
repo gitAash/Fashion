@@ -24,11 +24,13 @@ header {
   max-width: 200px;
 }
 
-.category, .price {
+.category,
+.price {
   margin-bottom: 20px;
 }
 
-.price label, .price input {
+.price label,
+.price input {
   display: block;
   margin-bottom: 5px;
 }
@@ -63,7 +65,7 @@ header {
 }
 
 .product-card button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -88,7 +90,8 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-section p, .footer-section ul {
+.footer-section p,
+.footer-section ul {
   margin-bottom: 10px;
 }
 

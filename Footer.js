@@ -1,30 +1,24 @@
-// src/components/Footer.js
-import React from 'react';
-import './Footer.css';
+import React from "react";
 
-const Footer = () => {
-    return (
-        <footer className="footer">
-            <div className="footer-content">
-                <div className="section">
-                    <h4>Sign Up and Save</h4>
-                    <input type="email" placeholder="Enter Your Email" />
-                </div>
-                <div className="section">
-                    <h4>Location</h4>
-                    <p>007, James Bond Street,<br />London, England</p>
-                </div>
-                <div className="section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li>Orders</li>
-                        <li>Returns</li>
-                        <li>Privacy Policy</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    );
-};
+const Footer = () => (
+  <footer className="footer">
+    <div>
+      <h3>Sign up and save</h3>
+      <p>Subscribe to get special offers and once-in-a-lifetime deals.</p>
+      <input type="email" placeholder="Enter your email" />
+    </div>
+    <div>
+      <h3>Location</h3>
+      <p>007, James Bond Street, London, England</p>
+      <p>Mon-Fri: 10AM - 6PM</p>
+    </div>
+    <div>
+      <h3>Information</h3>
+      <a href="#">About</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+);
 
 export default Footer;
