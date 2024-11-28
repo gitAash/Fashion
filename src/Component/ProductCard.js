@@ -8,15 +8,18 @@ const ProductCard = ({ product, view }) => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
-      <div className="w-full h-40 overflow-hidden rounded-t-lg">
+      {/* Image Container */}
+      <div className="w-full h-48">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
           src={product.src}
           alt={product.name}
         />
       </div>
-      <h3 className="mt-4 text-lg font-bold">{product.name}</h3>
-      <p className="text-gray-700">Rs. {product.price}</p>
+      {/* Product Details */}
+      <h3 className="mt-4 text-lg font-bold text-center">{product.name}</h3>
+      <p className="text-gray-700 text-center">Rs. {product.price}</p>
+      {/* Buttons */}
       {isProductInCart ? (
         <button className="mt-4 py-2 px-4 bg-gray-500 text-white rounded-md cursor-not-allowed">
           Already Added
@@ -33,7 +36,7 @@ const ProductCard = ({ product, view }) => {
         className="mt-4 py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-700"
         onClick={view}
       >
-        View
+        View Details
       </button>
     </div>
   );

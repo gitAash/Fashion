@@ -14,9 +14,9 @@ const DetailedView = ({ product, onBack }) => {
       >
         Back to Products
       </button>
-      <div className="w-full h-64 overflow-hidden">
+      <div className="w-full h-auto">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-96 object-contain"
           src={product.src}
           alt={product.name}
         />

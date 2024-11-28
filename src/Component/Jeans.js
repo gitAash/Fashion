@@ -84,7 +84,7 @@ const Jeans = () => {
       name: "Cropped Jeans",
       price: 1199,
       category: "Jeans",
-      src: "https://i.pinimg.com/originals/de/7d/94/de7d94b0d137696d93215e39192c8a2f.jpg",
+      src: "https://www.pinclipart.com/picdir/big/555-5551518_skinny-jeans-png-legs-with-pants-png-clipart.png",
       description:
         "Cropped jeans with a modern fit, perfect for warmer weather and showcasing your favorite footwear.",
       age: "22 - 25",
